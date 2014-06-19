@@ -1,0 +1,1006 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   font-family: Calibri;
+
+}
+
+html, body {
+   background-color: white;
+}
+body {
+   font-family: Calibri;
+   font-size: 12px;
+}
+
+a {
+   text-decoration: none;
+}
+
+#Wrapper {
+   width: 100%;
+}
+
+.Container {
+   width: 100%;
+   position: relative;
+}
+.ContentBlock{
+   position: relative;
+   margin:  0 auto ;
+   margin-top: -1px;
+   padding-top: 1px;
+   width: 980px;
+}
+
+#Home{
+   background-image: url(beITHomeBG.jpg);
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size:  auto 100%;
+}
+
+#Home .Slogan{
+   width: 90%;
+   margin-top: 12%;
+   margin-left: 5%;
+   text-align: center;
+}
+#Home .Slogan h2{
+   color: #fff;
+   font-size: 36px;
+   font-family: Calibris;
+   font-weight: normal;
+}
+#Home .Slogan h2 .MainSlogan{
+   color: #eb7068;
+   font-size: 32px;
+   font-weight: bold;
+   padding: .1% 2% ;
+   background: rgba(0,0,0,.5);
+}
+
+#AboutUs{
+   background-color: #00aeef;
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size:  auto 100%;
+   font-family: Calibri;
+   font-size: 100pt;
+}
+
+#AboutUs h2 {
+   font-size: 24px;
+   text-transform: uppercase;
+   text-align: center;
+   color: #fff;
+}
+
+#Labs{
+   background-color: #1eca1a;
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size:  auto 100%;
+   font-family: Calibri;
+   font-size: 100pt;
+}
+#Registration{
+   background-color: #db1c1c;
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size:  auto 100%;
+   font-family: Calibri;
+   font-size: 100pt;
+}
+#Speakers{
+    background-color: #b01cdb;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:  auto 100%;
+    font-family: Calibri;
+    font-size: 100pt;
+}
+#Partners{
+    background-color: #e68720;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:  auto 100%;
+    font-family: Calibri;
+    font-size: 100pt;
+}
+#Contacts{
+    background-color: #ffffff;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:  auto 100%;
+    font-family: Calibri;
+    font-size: 100pt;
+}
+
+
+.NotificationForm,
+.NotificationSuccess{
+   width: 490px;
+   margin-left: 25%;
+   margin-top: 5%;
+}
+.NotificationForm input[type=email],
+.NotificationForm input[type=submit],
+.NotificationForm .Error,
+.NotificationSuccess
+{
+   font-size: 16px;
+   padding: 10px;
+   font-weight: bold;
+   border: 1px solid #fff;
+   color: #fff;
+}
+.NotificationSuccess{
+   text-align: center;
+}
+.NotificationForm input[type=email]{
+   background: none;
+   width: 310px;
+}
+.NotificationForm input[type=email]:focus{
+   background: rgba(255,255,255,.1);
+}
+.NotificationForm input[type=submit]{
+   background: rgba(255,255,255,.1);
+   width: 154px;
+   cursor: pointer;
+}
+.NotificationForm input[type=submit].Disabled{
+   opacity: .4;
+   cursor: auto;
+}
+.NotificationForm input[type=submit].Disabled:hover{
+   background: rgba(255,255,255,.1);
+}
+.NotificationForm input[type=submit]:hover{
+   background: rgba(255,255,255,.3);
+}
+.NotificationForm .Error{
+   background: rgba(255,255,255,.3);
+}
+.Hide{
+   display: none;
+}
+
+.NotificationSuccess{
+   display: none;
+}
+.Help {
+   text-align: center;
+   color: #fff;
+   padding: 10px;
+   font-size: 12px;
+}
+
+nav#MenuStatic{
+   position: absolute;
+   right: 10px;
+   top: 20px;
+}
+nav#MenuStatic ul{
+   list-style: none;
+}
+nav#MenuStatic ul li{
+   display: inline-block;
+}
+nav#MenuStatic ul li a{
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 13px;
+   padding: 5px;
+   font-family: 'PT Sans', "Times New Roman", Times, serif;
+}
+
+nav#Menu{
+   width: 100%;
+   position: absolute;
+   top: 0px;
+   z-index: 999;
+   background: rgba(255,255,255,.9);
+}
+nav#Menu.Fix{
+   position: fixed;
+   top: 0px;
+}
+nav#Menu ul{
+   width: 740px;
+   margin: auto;
+   list-style: none;
+}
+nav#Menu ul li{
+   float: left;
+}
+
+
+
+
+
+nav#Menu ul li.Logo{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+
+
+
+
+nav#Menu ul li a{
+   width: 100px;
+   text-align: center;
+   display: block;
+   color: #181818;
+   text-transform: uppercase;
+   font-size: 13px;
+   padding: 0px ;
+   line-height: 50px;
+   height: 50px;
+   font-family: 'PT Sans', "Times New Roman", Times, serif;
+}
+nav#Menu ul li a img{
+   height: 40px;
+   margin-top: 5px;
+}
+
+
+#Labs .Lab{
+   background-color: #067b82;
+   width: 325px;
+   height: auto;
+   float: left;
+}
+#Labs .Lab .Header .Icon{
+   width: 60px;
+   height: 60px;
+   margin: auto;
+
+   background-image: url(../Images/LabsIcons.png);
+   background-repeat: no-repeat;
+   margin-top: 70px;
+}
+#Labs .Lab .Header .Title{
+   text-transform: uppercase;
+   font-size: 24px;
+   color: #fff;
+   text-align: center;
+   margin-bottom: 20px;
+}
+#Labs .Lab .Header .Hall{
+   text-transform: uppercase;
+   font-size: 14px;
+   color: #fff;
+   text-align: center;
+   font-weight: bold;
+   margin-top: -10px;
+}
+.Point{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background-image: url(../Images/Point.png );
+   background-position: center center;
+   background-repeat: no-repeat;
+}
+.Today{
+   display: inline-block;
+   width: 62px;
+   height: 27px;
+   position: relative;
+   top: 4px;
+   background-image: url(../Images/Today.png );
+   background-position: center center;
+   background-repeat: no-repeat;
+}
+#Labs #Web{
+   background-color: #067b82;
+}
+#Labs #Database{
+   border-left: 1px solid #2a5a60;
+   background-color: #75606f;
+}
+#Labs #Mobile{
+   border-left: 1px solid #516c49;
+   background-color: #63a74a;
+}
+#Labs #Web .Icon{
+   background-position: 0px 0px;
+}
+#Labs #Database .Icon{
+   background-position: -60px 0px ;
+}
+#Labs #Mobile .Icon{
+   background-position: -120px 0px ;
+}
+#Labs #Web li.Select{
+   color: #00aeef;
+}
+#Labs #Database li.Select{
+   color: #181818;
+}
+#Labs #Mobile li.Select {
+   color: #516c49;
+}
+#Labs .Lab ul{
+   list-style: none;
+   width: 100%;
+}
+#Labs .Lab li{
+   list-style: none;
+   padding: 10px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-size: 14px;
+   color: #fff;
+   height: 80px;
+   text-align: center;
+   /*cursor: pointer;*/
+}
+#Labs .Lab li.Select{
+   background-color: #fff;
+}
+/*#Labs .Lab li.Disable{
+   cursor: auto;
+   opacity: .5;
+}*/
+#Labs .Lab li .Name{
+   width: 80%;
+   margin: auto;
+}
+#Labs .Lab li .Time{
+   font-weight: bold;
+}
+#Labs .Lab li input{
+   width: 80%;
+   margin: auto;
+}
+#Labs form input{
+   display: none;
+}
+.LabPoint{
+   display: inline-block;
+   width: 13px;
+   height: 13px;
+   background-image: url(../Images/LabPoint.png );
+   background-repeat: no-repeat;
+   position: relative;
+   top: 1px;
+   right: 2px;
+}
+#Labs #Web li.Select .LabPoint{
+   background-position: -13px 0px;
+}
+#Labs #Database li.Select .LabPoint{
+   background-position: -26px 0px;
+}
+#Labs #Mobile li.Select .LabPoint{
+   background-position: -39px 0px;
+}
+#Labs .RegBtn{
+   display: none;
+}
+
+
+#Speakers .MainTitle{
+   font-size: 24px;
+   text-transform: uppercase;
+   padding-top: 90px;
+   padding-bottom: 30px;
+   text-align: center;
+   color: #181818;
+}
+#Contacts .Title{
+   font-size: 48px;
+   text-transform: uppercase;
+   padding-top: 90px;
+   padding-bottom: 30px;
+   text-align: center;
+   color: #282828;
+}
+
+.ContactsBlock{
+   width: 800px;
+   margin: auto;
+   padding-top: 10px;
+   padding-bottom: 50px;
+   float: left;
+   margin-left: 90px;
+}
+.ContactBlock{
+   float: left;
+   width: 180px;
+   text-align: center;
+   margin: 10px 43px;
+}
+.ContactBlock .Text a,
+.ContactBlock .Text{
+   font-size: 14px;
+   color: #282828;
+   text-transform: uppercase;
+}
+
+.ContactBlock .Text a:hover{
+   opacity: .7;
+}
+.ContactBlock .Icon{
+   background-image: url(../Images/ContactIcon.png );
+   background-repeat: no-repeat;
+   height: 62px;
+   margin: auto;
+}
+.ContactBlock#Phone .Icon{
+   width: 36px;
+   background-position: 0px 0px;
+}
+.ContactBlock#Adress .Icon{
+   width: 44px;
+   background-position: -38px 0px;
+}
+.ContactBlock#Email .Icon{
+   width: 62px;
+   background-position: -83px 0px;
+}
+
+#Footer{
+   width: 100%;
+   height: 50px;
+   background: #111;
+}
+#Footer .Main{
+   width: 100%;
+   height: 50px;
+   margin-top: -1px;
+   padding-top: 1px;
+}
+#Footer .Bottom{
+   width: 100%;
+   height: 60px;
+   background: #000;
+}
+#Footer .Social{
+   width: 300px;
+   float: left;
+}
+#Footer .Copyright{
+   font-size: 14pt;
+   text-transform: uppercase;
+   text-align: center;
+   width: 100%;
+   margin: auto;
+   color: #ffffff;
+   opacity: .2;
+   line-height: 20px;
+   float: left;
+   padding-top: 17px;
+}
+#Footer .Maker{
+   width: 300px;
+   float: left;
+}
+#Footer .Maker a{
+   width: 60px;
+   height: 24px;
+   display: block;
+   float: right;
+   margin-top: 15px;
+   background: url(../Images/DOT-white.png ) center center no-repeat;
+}
+#Footer .Logo{
+   width: 120px;
+   height: 70px;
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   background: url(../Images/WhiteLogo.png) center center no-repeat;
+}
+#Footer #MenuStatic{
+   position: relative;
+   width: 700px;
+   text-align: center;
+   margin: auto;
+   font-size: 10px;
+   color: #fff;
+}
+#Footer #MenuStatic a{
+   opacity: .1;
+}
+#Footer #MenuStatic a:hover{
+   opacity: .7 ;
+}
+
+.ComingSoon{
+   color: white;
+   font-size: 12px;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 10px;
+}
+#Speakers .ComingSoon{
+   color: #00aeef;
+}
+#SpeakersCompany{
+   width: 930px;
+   margin: auto;
+   margin-top: 20px;
+}
+#SpeakersCompany .Left,
+#SpeakersCompany .Right {
+   float: left;
+   width: 60px;
+   height: 135px;
+   background-image: url(../Images/Speakers.png);
+   background-repeat: no-repeat;
+}
+#SpeakersCompany .Left{
+   background-position: left center;
+}
+#SpeakersCompany .Right {
+   background-position: right center;
+}
+#SpeakersCompany .Middle {
+   float: left;
+   width: 810px;
+   height: 135px;
+}
+#SpeakersCompany .Middle .Logo{
+   float: left;
+   padding: 5px;
+}
+#SpeakersCompany .Middle .Logo a{
+   height: 50px;
+   overflow: hidden;
+   width: auto;
+   display: block;
+}
+#SpeakersCompany .Middle .Logo img{
+   height: 100px;
+   opacity: .3;
+   margin-top: 0px;
+}
+#SpeakersCompany .Middle .Logo:hover img{
+   opacity: 1;
+   margin-top: -50px;
+}
+.PartnersBlock{
+   margin: auto;
+   margin-top: 80px;
+}
+.PartnersBlock ul{
+   list-style: none;
+}
+.PartnersBlock ul li{
+   float: left;
+}
+.PartnersBlock  .PartnersTitle{
+   margin: 0px 10px;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+   color: #282828;
+   width: 170px;
+}
+.PartnersBlock a{
+   display: block;
+   margin: auto;
+}
+.PartnersBlock .MainSponsor a{
+   background-image: url(../Images/SmartIT.png );
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 205px;
+   height: 150px;
+
+}
+.PartnersBlock .Sponsor a{
+   background-image: url(../Images/icn.png );
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 180px;
+   margin-top: 50px;
+   height: 62px;
+
+}
+.PartnersBlock li.Partner a{
+   width: 150px;
+   height: 150px;
+
+   background-image: url(../Images/NestleLogo.png );
+   background-position: center center;
+   background-repeat: no-repeat;
+}
+.PartnersBlock  li.We a{
+   width: 150px;
+   height: 150px;
+   background-image: url(../Images/JTLogoTransparent.png );
+   background-position: center center;
+   background-repeat: no-repeat;
+}
+.PartnersBlock .Media a{
+   background-image: url(../Images/AUB.png );
+   background-position: center center;
+   background-repeat: no-repeat;
+   width: 205px;
+   height: 150px;
+}
+.PartnersBlock .Logos{
+   height: 170px;
+   width: 940px;
+   margin: auto;
+   padding-top: 20px;
+}
+.PartnersBlock .Logos .Logo{
+   float: left;
+   padding: 5px 25px;;
+}
+.PartnersBlock .Logos .Logo{
+   float: left;
+}
+.PartnersBlock .Logos .Logo img{
+   height: 30px;
+}
+.PresentationList{
+   width: 700px;
+   height: 192px;
+   margin: auto;
+   color: #fff;
+}
+.PresentationList ul{
+   list-style: none;
+}
+.PresentationList li{
+   float: left;
+   width: 330px;
+   border-left-style: solid;
+   border-left-width: 4px;
+   padding-left: 10px;
+   height: 75px;
+   overflow: hidden;
+   margin: 10px 0px;
+}
+.PresentationList li[data-stream=Web]{
+   border-left-color: #067b82;
+}
+.PresentationList li[data-stream=Database]{
+   border-left-color: #75606f;
+}
+.PresentationList li[data-stream=Mobile]{
+   border-left-color: #63a74a;
+}
+
+.PresentationList .Time{
+   font-size: 18px;
+}
+.PresentationList .Title{
+   font-size: 14px;
+   width: 80%;
+}
+.PresentationList .Hall{
+   font-size: 11px;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.RegistrationForm{
+   width: 700px;
+   height: 310px;
+   margin: auto;
+}
+.RegistrationForm .Image{
+   width: 140px;
+   float: left;
+}
+.RegistrationForm input[type=text]{
+   width: 180px;
+}
+.RegistrationForm input[type=text],
+.RegistrationForm input[type=email],
+.RegistrationForm select{
+   background: transparent;
+   font-size: 16px;
+   padding: 10px;
+   font-weight: bold;
+   border: 1px solid #fff;
+   color: #fff;
+   margin-top: 15px;
+   margin-left: 30px;
+}
+.RegistrationForm select{
+   width: 290px;
+}
+.RegistrationForm input[type=text].Fail,
+.RegistrationForm select.Fail,
+.RegistrationForm input[type=email].Fail{
+   border: 1px solid red;
+}
+.RegistrationForm input[type=text]:focus,
+.RegistrationForm input[type=email]:focus,
+.RegistrationForm select:focus{
+   background: rgba(255,255,255,.1);
+}
+.RegistrationForm select option{
+   color: black;
+   background: transparent;
+}
+.RegistrationForm .Btn{
+   float: right;
+   width: 190px;
+}
+.RegistrationForm .Btn .Agreement{
+   color: #c4c4c4;
+   font-size: 14px;
+   margin-top: 20px;
+   padding: 5px;
+   border-radius: 5px;
+}
+.RegistrationForm .Btn .Agreement.Fail{
+   background: rgba(255, 0, 0, 0.5);
+}
+#Labs .RegBtn a{
+
+   width: 150px;
+   top: 40px;
+}
+.RegistrationForm input[type=submit]{
+   width: 190px;
+}
+.RegistrationForm input[type=submit]:disabled{
+   opacity: .5;
+   border-bottom: 4px solid #fff;
+}
+#Labs .RegBtn a,
+.RegistrationForm input[type=submit]{
+   top: 20px;
+   border: none;
+   clear: both;
+   margin: auto;
+   position: relative;
+   text-align: center;
+   display: block;
+   background: #00aeef;
+   padding: 10px 20px;
+   font-size: 14px;
+   font-weight: bold;
+   border-bottom: 4px solid #0081b1;
+   color: #fff;
+   cursor: pointer;
+}
+#Labs .RegBtn a:hover,
+.RegistrationForm input[type=submit]:hover{
+   border-bottom: 4px solid #fff;
+}
+object{
+   cursor: pointer;
+}
+/* uploadify-button */
+.uploadify-button {
+   background-color: transparent;
+   border: none;
+   padding: 0;
+   width: 140px;
+   height: 140px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   display: block;
+   cursor: pointer;
+}
+.uploadify:hover .uploadify-button {
+   background-color: transparent;
+}
+#file_upload{
+   cursor: pointer;
+}
+.PopUp{
+   display: none;
+   width: 980px;
+   height: 600px;
+   background: #fff;
+}
+.AgreementPop{
+   cursor: pointer;
+}
+.AgreementPop:hover{
+   text-decoration: underline;
+}
+#FileNameTip,
+#PresentationsTip a,
+#PresentationsTip div,
+#PresentationsTipDisable a,
+#PresentationsTipDisable div,
+#SuccessReg,
+#MailExist{
+   margin: auto;
+   width: 100%;
+   text-align: center;
+   background: transparent;
+   font-size: 16px;
+   padding: 10px;
+   font-weight: bold;
+   border: 1px solid #fff;
+   color: #fff;
+   display: none;
+   margin-bottom: 20px;
+}
+
+#FileNameTip{
+   font-size: 12px;
+}
+
+#PresentationsTipDisable,
+#PresentationsTip{
+   margin: auto;
+   display: none;
+}
+#PresentationsTipDisable{
+}
+#PresentationsTipDisable a,
+#PresentationsTipDisable div,
+#PresentationsTip a,
+#PresentationsTip div{
+   display: block;
+}
+#PresentationsTipDisable a,
+#PresentationsTip a{
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 40%;
+   background: rgba(255,255,255,.1);
+}
+#PresentationsTipDisable a:hover,
+#PresentationsTip a:hover{
+   background: rgba(255,255,255,.3);
+}
+#SpeakersContainer ul {
+   list-style: none;
+}
+#SpeakersPopUp .Info,
+#SpeakersContainer ul li{
+   width: 325px;
+   height: 440px;
+   float: left;
+   margin-left: 1px;
+   cursor: pointer;
+   text-align: center;
+}
+
+#SpeakersPopUp .Info{
+   color: #fff;
+   cursor: auto;
+}
+#SpeakersContainer ul li:hover{
+   background: #e5f7fd;
+}
+#SpeakersPopUp .Image,
+#SpeakersContainer ul li .Image{
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border:  5px solid #ededed;
+   overflow: hidden;
+}
+#SpeakersPopUp  .Image img,
+#SpeakersContainer ul li .Image img{
+   width: 150px;
+   height: 150px;
+}
+#SpeakersPopUp .Title,
+#SpeakersContainer ul li .Title{
+   margin: auto;
+   width: 90%;
+   font-size: 24px;
+}
+#SpeakersPopUp .Name,
+#SpeakersContainer ul li .Name{
+   margin: auto;
+   width: 90%;
+   font-size: 18px;
+   text-transform: uppercase;
+}
+#SpeakersPopUp .Separator,
+#SpeakersContainer ul li .Separator{
+   margin: auto;
+   width: 40%;
+   border-top: 1px solid #000;
+}
+#SpeakersPopUp .Separator{
+   border-top: 1px solid #fff;
+}
+#SpeakersPopUp .Time,
+#SpeakersContainer ul li .Time{
+   margin: auto;
+   width: 80%;
+   font-size: 14px;
+   text-transform: uppercase;
+
+}
+#SpeakersPopUp .Hall,
+#SpeakersContainer ul li .Hall{
+   margin: auto;
+   width: 90%;
+
+   font-size: 14px;
+}
+#SpeakersPopUp{
+   position: relative;
+   width: 980px;
+   height: 500px;
+   background: white;
+   display: none;
+}
+#SpeakersPopUp[data-id-c="1"] .Logo{
+   background-image: url(../Images/SpeakersCompany/Komfo.png);
+}
+#SpeakersPopUp[data-id-c="2"] .Logo{
+   background-image: url(../Images/SpeakersCompany/melon.png);
+}
+#SpeakersPopUp[data-id-c="3"] .Logo{
+   background-image: url(../Images/SpeakersCompany/proxiad.png);
+}
+#SpeakersPopUp[data-id-c="4"] .Logo{
+   background-image: url(../Images/SpeakersCompany/SmartIT.png);
+}
+#SpeakersPopUp[data-id-c="5"] .Logo{
+   background-image: url(../Images/SpeakersCompany/HP.png);
+}
+#SpeakersPopUp[data-id-c="6"] .Logo{
+   background-image: url(../Images/SpeakersCompany/comverse.png);
+}
+#SpeakersPopUp[data-id-c="7"] .Logo{
+   background-image: url(../Images/SpeakersCompany/adastra.png);
+}
+#SpeakersPopUp[data-id-c="8"] .Logo{
+   background-image: url(../Images/SpeakersCompany/SAP.png);
+}
+#SpeakersPopUp[data-id-c="9"] .Logo{
+   background-image: url(../Images/SpeakersCompany/infragistics.png);
+}
+#SpeakersPopUp[data-id-c="10"] .Logo{
+   background-image: url(../Images/SpeakersCompany/HR.png);
+}
+#SpeakersPopUp[data-id-c="12"] .Logo{
+   background-image: url(../Images/SpeakersCompany/Obecto.png);
+}
+#SpeakersPopUp .Info{
+
+   margin-top: -1px;
+   padding-top: 1px;
+   margin-left: -1px;
+   width: 260px;
+   height: 500px;
+   background: #444349;
+}
+#SpeakersPopUp .Main{
+   width: 500px;
+   float: left;
+   padding: 20px;
+   padding-top: 50px;
+}
+#SpeakersPopUp .Logo{
+   position: absolute;
+   right: 20px;
+   bottom: 20px;
+   width: 200px;
+   height: 60px;
+   background-position:right top;
+   background-repeat: no-repeat;
+}
+.AgreementPop_Pop {
+   padding: 20px;
+}
+.AgreementPop_Pop h1{
+   font-size: 18px;
+}
+.AgreementPop_Pop a{
+   color: #4c4c4c;
+}
